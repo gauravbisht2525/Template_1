@@ -1,0 +1,155 @@
+body{
+	background: -webkit-linear-gradient(top, #000000 6%,#000000 6%,#2c2c2c 10%,#000000 16%,#2b2b2b 21%,#2b2b2b 21%,#595959 26%,#595959 26%,#131313 32%,#131313 32%,#282828 34%,#666666 37%,#474747 39%,#2b2b2b 42%,#4c4c4c 56%,#2c2c2c 57%,#2c2c2c 57%,#2b2b2b 58%,#111111 71%,#1c1c1c 80%,#474747 84%); 
+	margin-top: 0px;
+    
+}
+img{
+	width:100%;
+	height:100%;
+}
+.logo{
+	-webkit-border-radius: 250px;
+-moz-border-radius: 250px;
+border-radius: 250px;
+height:100px;
+width:100px;
+}
+.header{
+	display: grid;
+	grid-template-columns: 1fr;
+	position: relative;
+    top:40px;
+}
+.navigation{
+	display: grid;
+	grid-template-columns: 40fr 3fr 3fr 1fr;
+	grid-gap:-32em;
+	
+}
+.navbar{
+  
+     display: inline-flex;
+   list-style: none;
+   margin:0;
+    
+ 
+   flex-wrap: wrap;
+   justify-content: flex-end;
+   border-radius: 10px;
+   
+   margin-top: 0px;
+ 
+
+
+}
+
+.navbar a{
+
+	color:white;
+	text-decoration: none;
+	display:block;
+	
+	font-size: 30px;
+}
+.navbar a:hover{
+	color: 	#4169E1;
+}
+.banner{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows:3fr;
+	background-color: #c8d8f7;
+}
+.gaurav{
+	width:600px;
+	height: 400px;
+	
+}
+.text{
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+	padding-top: 150px;
+	padding-left: 150px;
+ 
+}
+
+.navigation-bar{
+	width:100%;
+	
+	display: inline-flex;
+	list-style-type: none;
+	justify-content: space-around;
+	background-color: #0b3789;
+   
+}
+.navigation-bar a{
+	padding: 20px;
+	list-style: none;
+	color:white;
+	font-size: 20px;
+	 font-family: 'Roboto Slab', serif;
+}
+.navigation-bar a:hover{
+        list-style: none;
+        text-decoration: none;
+        color:black;
+
+
+}
+.main{
+	display: grid;
+	grid-template-columns:5fr 25fr;
+
+}
+.box1{
+	width:400px;
+	
+}
+.about{
+	font-size: 20px;
+	font-family: 'Roboto Slab', serif;
+	color: #e3e5e8;
+	margin-left: 20px;
+
+}
+.add{
+	font-size: 15px;
+	margin-left: 150px;
+	font-family: 'Roboto Slab', serif;
+}
+.ab{
+	color-rendering: all;
+	color:#d6d8db;
+	margin-left: 20px;
+}
+.content{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr ;
+	grid-template-rows:1fr 1fr;
+		grid-gap:1em;
+
+
+}
+
+.box{
+	background-color: #454d5b;
+	
+	height: 200px;
+
+}
+.recent{
+	font-family: 'Roboto Slab', serif;
+	font-size: 25px;
+	color:#c1d5f2;
+}
+.footer{
+	display: flex;
+	flex-grow: 1;
+	background-color: #b8bcc1;
+	margin-bottom: 30px;
+}
+.superfooter{
+	text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px; 	
+}
